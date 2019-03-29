@@ -1,0 +1,10 @@
+<h3 mat-dialog-title>Cargar video</h3>
+<div mat-dialog-content>
+	<p>Solo un archivo con extension .avi, .mp4, .mpa, .mpe, .mpeg y .mpg puede ser cargado. Además, el archivo no puede pesar más de 300 MB.</p>
+	<input type="file" (change)="fileChange($event)" placeholder="Cargar" accept=".avi,.mp4,.mpa,.mpe,.mpeg,.mpg">
+</div>
+
+<div mat-dialog-actions>
+	<button mat-button (click)="onSave()" [disabled]="!file">Guardar</button>
+	<button mat-button (click)="onClose()">Cerrar</button>
+</div>

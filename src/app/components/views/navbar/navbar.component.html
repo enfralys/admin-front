@@ -1,0 +1,19 @@
+<mat-toolbar>
+  <mat-toolbar-row>
+    <span>Frudas Tecnology</span>
+    <span class="spacer"></span>
+    <ng-template #NoNotifications>
+      <mat-icon >notifications</mat-icon>
+    </ng-template>
+    <button mat-icon-button>
+    <mat-icon class="icon-right">favorite</mat-icon>
+  </button>
+   <button mat-button style="background-color: transparent" [matMenuTriggerFor]="menu" > <p>Benjamin Puller</p>  </button>
+   <mat-menu #menu="matMenu">
+    <button mat-menu-item  [routerLink]="['/login']">Cerrar Sesión</button>
+    <button mat-menu-item>Servi2</button>
+  </mat-menu>
+
+
+  </mat-toolbar-row>
+</mat-toolbar>

@@ -1,0 +1,25 @@
+.video-items{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+.video-title{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 5%;
+    background-color: #343e50;
+}
+.paginacion{
+   
+height: 150px; width: 150px; margin-left: 5px; margin-right: 5px; margin-bottom: 5px;
+}
+.paginacion:hover{
+   border: 1px solid white;
+
+    -webkit-box-shadow: 4px 15px 67px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 15px 67px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 15px 67px 0px rgba(0,0,0,0.75);
+    }

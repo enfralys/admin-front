@@ -1,0 +1,27 @@
+<mat-drawer-container class="example-container" autosize>
+ 
+  <mat-drawer #drawer class="example-sidenav" mode="side" opened>
+      <div>Hola</div>
+      <div>Hola</div>
+      <div>Hola</div>
+      <div>Hola</div>
+      <div>Hola</div>
+    <p>Panel administrativo</p>
+    <p *ngIf="showFiller">Champetera coleta.</p>
+    <button (click)="drawer.toggle()" mat-raised-button>
+      Toggle extra text
+    </button>
+  </mat-drawer>
+<div class="main">
+  <div class="titulo">tiulo</div>
+  <div class="tabla">
+ 
+
+
+
+
+</div>
+</div>
+  
+
+</mat-drawer-container>

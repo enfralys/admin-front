@@ -1,0 +1,55 @@
+
+
+.container-flex{
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    background-color:#f2f2f2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+mat-card{
+    border-radius: 10px;
+    padding-top: 77px;
+    padding-right: 15px;
+    padding-bottom: 33px;
+    padding-left: 15px;
+}
+
+
+.login-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 310px;
+ 
+   
+  
+}
+
+.login-container div {
+    margin-top: 0%;
+}
+
+.title-login{
+    font-family: Poppins-Bold;
+    font-size: 30px;
+    color: #333;
+    line-height: 1.2;
+}
+.txt1{
+    font-size: 13px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.txt2{
+    font-family: Poppins-Regular;
+    font-size: 13px;
+    color: #333;
+    line-height: 1.5;
+}
+
